@@ -15,11 +15,39 @@ body{
     background-color: #f7b600;
     padding: 15px;
     text-align: center;
+    
 }
 #area-logo, #area-menu{
     padding: 10px;
 
 }
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens, #area-lateral{
+    background: orange;
+}
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+#rodape{
+    background: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+
+}
+
+
+
 /*
 ****Formatação do Menu****
 */
