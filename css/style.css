@@ -25,10 +25,12 @@ body{
 #area-principal{
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
 }
 
-#area-postagens, #area-lateral{
+#area-lateral{
     background: orange;
+    
 }
 #area-postagens{
     width: 660px;
@@ -60,12 +62,20 @@ a{
     text-decoration: none;
 }
 a:link, a:visited{
+    color: #f7b600;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
     color: #fff;
     padding: 8px 12px;
 }
-a:hover{
+#area-cabecalho a:hover{
     color: #f7b600;
     background: #fff;
+    text-decoration: none;
 }
 
 /*
@@ -75,6 +85,17 @@ h1{
     color: #4e4e4e;
     font-size: 2.5em;
 }
+h2{
+    color: #f7b600;
+}
 .branco{
     color: white;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid red;
 }
