@@ -38,12 +38,17 @@ body{
     width: 240px;
     float: right;
 }
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
 #rodape{
     background: #ccc;
     clear: both;
     text-align: center;
     padding: 15px;
-
 }
 
 
